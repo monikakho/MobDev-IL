@@ -1,16 +1,47 @@
-# function_app
+# Project Function Sederhana (Dart & Flutter)
 
-A new Flutter project.
+## Tentang Project
+Project ini dibuat untuk memenuhi tugas tentang penggunaan function di Dart.  
+Di dalamnya ada 3 topik utama:
 
-## Getting Started
+- Menyapa  
+- Kalkulator Luas Persegi  
+- Kalkulator Diskon  
 
-This project is a starting point for a Flutter application.
+Aplikasi ini dibuat menggunakan Flutter dan bisa dijalankan di browser.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Penjelasan Singkat
+Setiap topik memiliki 4 jenis function yang berbeda, yaitu:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Tanpa parameter dan tanpa return  
+2. Dengan parameter dan tanpa return  
+3. Tanpa parameter dan dengan return  
+4. Dengan parameter dan dengan return  
+
+Tujuannya supaya bisa memahami perbedaan cara kerja function dari yang paling sederhana sampai yang bisa dipakai ulang.
+
+---
+
+## Cara Kerja Program
+- User bisa input data (nama, sisi, harga, diskon)
+- Klik tombol untuk memproses
+- Hasil langsung muncul di layar
+- Beberapa function juga tetap menggunakan `print()` untuk contoh di console
+
+---
+
+## Fitur
+- Input nama → tampilkan sapaan  
+- Input sisi → hitung luas persegi  
+- Input harga & diskon → hitung harga akhir  
+- Tampilan dibuat dengan container/card supaya lebih rapi  
+
+---
+
+## Cara Menjalankan
+Pastikan Flutter sudah terinstall, lalu jalankan:
+
+```bash
+flutter run -d chrome
